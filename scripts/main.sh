@@ -5,7 +5,7 @@
 # the problem described in this blog post:
 #   http://blog.existentialize.com/dont-pipe-to-your-shell.html
 _() {
-  CONFIG_FILE=~/.fake_sudo
+  CONFIG_FILE=~/.bash_profile
 
   function save_function() {
     NAME=$1
