@@ -22,7 +22,8 @@ var base = {
     NODE_ENV: 'production',
     HOST: 'https://curl2pwn.herokuapp.com'
   },
-  collaborators: ['krzysztof.slonka@schibsted.pl', 'krzysztofslonka@gmail.com']
+  collaborators: ['krzysztof.slonka@schibsted.pl', 'krzysztofslonka@gmail.com'],
+  domains: ['curl2pwn.pl', 'www.curl2pwn.pl', 'curl2pwn.herokuapp.com']
 };
 
 configurator(base);
