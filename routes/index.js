@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
     res.sendFile(scriptPath);
   } else {
     res.render('index', {
-      url: process.env.HOST || 'http://localhost:3000'
+      url: req.headers.host || 'http://localhost:3000'
     });
   }
 });
